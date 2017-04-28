@@ -1,0 +1,33 @@
+{
+  "name": "smartgulp",
+  "version": "1.0.0",
+  "description": "lightweight gulp replacement",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/pushrocks/smartgulp.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/pushrocks/smartgulp/issues"
+  },
+  "homepage": "https://gitlab.com/pushrocks/smartgulp#README",
+  "devDependencies": {
+    "tapbundle": "^1.0.10"
+  },
+  "dependencies": {
+    "smartq": "^1.1.1",
+    "smartstream": "^1.0.8"
+  }
+}
