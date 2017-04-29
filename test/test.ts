@@ -13,8 +13,9 @@ tap.test('smartgulp.src -> should read a directoy', async () => {
     }))
     .pipe(gulpFunction.atEnd(async () => {
       console.log('hey')
-      done.resolve()
+      
     }))
+    done.resolve()
   await done.promise
 })
 
