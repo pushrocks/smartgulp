@@ -24,7 +24,7 @@
   },
   "homepage": "https://gitlab.com/pushrocks/smartgulp#README",
   "devDependencies": {
-    "gulp-function": "^2.2.5",
+    "gulp-function": "^2.2.6",
     "tapbundle": "^1.0.10"
   },
   "dependencies": {

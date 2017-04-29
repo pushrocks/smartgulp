@@ -7,15 +7,13 @@ import * as smartq from 'smartq'
 
 tap.test('smartgulp.src -> should read a directoy', async () => {
   let done = smartq.defer()
-  smartgulp.src(['./test/testfiles/**/*'])
+  smartgulp.src(['./test/testfiles/**/*.md'])
     .pipe(gulpFunction.forEach(async (fileArg) => {
       console.log(fileArg.path)
     }))
     .pipe(gulpFunction.atEnd(async () => {
-      console.log('hey')
-      
+      done.resolve()
     }))
-    done.resolve()
   await done.promise
 })
 
