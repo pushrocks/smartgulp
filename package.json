@@ -24,10 +24,16 @@
   },
   "homepage": "https://gitlab.com/pushrocks/smartgulp#README",
   "devDependencies": {
+    "gulp-function": "^2.2.3",
     "tapbundle": "^1.0.10"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.63",
+    "lodash": "^4.17.4",
+    "smartevent": "^1.0.1",
+    "smartfile": "^4.2.0",
     "smartq": "^1.1.1",
-    "smartstream": "^1.0.8"
+    "smartstream": "^1.0.8",
+    "typings-global": "^1.0.16"
   }
 }
