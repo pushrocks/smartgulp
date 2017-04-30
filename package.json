@@ -1,6 +1,6 @@
 {
   "name": "smartgulp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "lightweight gulp replacement",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
