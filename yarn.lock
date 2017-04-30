@@ -393,9 +393,9 @@ smartevent@^1.0.1:
     smartq "^1.1.1"
     typings-global "^1.0.16"
 
-smartfile@^4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/smartfile/-/smartfile-4.2.1.tgz#2ec85f803f771a1ddff377a438ae87aab25f3e6e"
+smartfile@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/smartfile/-/smartfile-4.2.3.tgz#fc31f7040cb2b316a939e0f068bc33cff9240a03"
   dependencies:
     "@types/fs-extra" "2.x.x"
     "@types/vinyl" "^2.0.0"
