@@ -21,6 +21,15 @@ export let src = (minimatchPathArrayArg: string[]): Transform => {
   return gulpStream.stream
 }
 
-export let dest = () => {
+export let dest = (dirArg: string) => {
 
+}
+
+export let replace = () => {
+  return plugins.through2.obj(async (file: Smartfile, enc, cb) => {
+    await file.write()
+    cb(file)
+  }, (cb) => {
+    cb()
+  })
 }
