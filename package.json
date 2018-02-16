@@ -29,11 +29,11 @@
     "tapbundle": "^1.1.8"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.103",
+    "@types/lodash": "^4.14.104",
     "@types/through2": "^2.0.33",
     "lodash": "^4.17.5",
     "smartevent": "^1.0.1",
-    "smartfile": "^4.2.26",
+    "smartfile": "^4.2.27",
     "smartq": "^1.1.6",
     "smartstream": "^1.0.10",
     "through2": "^2.0.3"
