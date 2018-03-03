@@ -1,1 +1,1 @@
-export * from './smartgulp.gulpapi'
+export * from './smartgulp.gulpapi';
