@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/smartgulp",
-  "version": "1.0.11",
+  "version": "2.0.0",
   "private": false,
   "description": "lightweight gulp replacement",
   "main": "dist/index.js",
