@@ -1,7 +1,7 @@
 // this file contains the code to generate and handle the stream
 
 import * as plugins from './smartgulp.plugins';
-import { Smartfile } from 'smartfile';
+import { Smartfile } from '@pushrocks/smartfile';
 
 import { Transform } from 'stream';
 

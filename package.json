@@ -1,14 +1,13 @@
 {
-  "name": "smartgulp",
+  "name": "@pushrocks/smartgulp",
   "version": "1.0.11",
+  "private": false,
   "description": "lightweight gulp replacement",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "(npmts)"
+    "test": "(tstest test/)",
+    "build": "(tsbuild)"
   },
   "repository": {
     "type": "git",
@@ -24,17 +23,20 @@
   },
   "homepage": "https://gitlab.com/pushrocks/smartgulp#README",
   "devDependencies": {
-    "@types/node": "^9.4.6",
-    "gulp-function": "^2.2.14",
-    "tapbundle": "^1.1.8"
+    "@gitzone/tsbuild": "^2.0.22",
+    "@gitzone/tsrun": "^1.1.12",
+    "@gitzone/tstest": "^1.0.15",
+    "@pushrocks/tapbundle": "^2.0.2",
+    "@types/node": "^10.9.4",
+    "gulp-function": "^2.2.14"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.104",
+    "@pushrocks/smartfile": "^6.0.8",
+    "@pushrocks/smartpromise": "^2.0.5",
+    "@types/lodash": "^4.14.116",
     "@types/through2": "^2.0.33",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.10",
     "smartevent": "^1.0.1",
-    "smartfile": "^4.2.27",
-    "smartq": "^1.1.6",
     "smartstream": "^1.0.10",
     "through2": "^2.0.3"
   }

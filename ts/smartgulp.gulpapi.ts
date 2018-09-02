@@ -3,7 +3,7 @@ import * as plugins from './smartgulp.plugins';
 import { GulpStream } from './smartgulp.classes.gulpstream';
 import { Transform } from 'stream';
 
-import { Smartfile } from 'smartfile';
+import { Smartfile } from '@pushrocks/smartfile';
 
 export let src = (minimatchPathArrayArg: string[]): Transform => {
   let gulpStream = new GulpStream();
