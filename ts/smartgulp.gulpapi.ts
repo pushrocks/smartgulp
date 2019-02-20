@@ -14,7 +14,7 @@ export let src = (minimatchPathArrayArg: string[]): Transform => {
         process.cwd(),
         minimatchPath
       );
-      smartfileArray = plugins.lodash.concat(smartfileArray, localSmartfileArray);
+      smartfileArray = [...smartfileArray, ...localSmartfileArray];
     }
     gulpStream.pipeSmartfileArray(smartfileArray);
   };

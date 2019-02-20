@@ -1,7 +1,7 @@
 import { expect, tap } from '@pushrocks/tapbundle';
 
 import * as smartgulp from '../ts/index';
-import * as smartstream from 'smartstream';
+import * as smartstream from '@pushrocks/smartstream';
 import * as gulpFunction from 'gulp-function';
 import * as smartq from 'smartq';
 

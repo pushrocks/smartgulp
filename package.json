@@ -23,21 +23,19 @@
   },
   "homepage": "https://gitlab.com/pushrocks/smartgulp#README",
   "devDependencies": {
-    "@gitzone/tsbuild": "^2.0.22",
-    "@gitzone/tsrun": "^1.1.12",
-    "@gitzone/tstest": "^1.0.15",
-    "@pushrocks/tapbundle": "^3.0.5",
-    "@types/node": "^10.9.4",
+    "@gitzone/tsbuild": "^2.1.8",
+    "@gitzone/tsrun": "^1.1.17",
+    "@gitzone/tstest": "^1.0.18",
+    "@pushrocks/tapbundle": "^3.0.7",
+    "@types/node": "^11.9.4",
     "gulp-function": "^2.2.14"
   },
   "dependencies": {
-    "@pushrocks/smartfile": "^6.0.8",
+    "@pushrocks/smartevent": "^2.0.3",
+    "@pushrocks/smartfile": "^7.0.0",
     "@pushrocks/smartpromise": "^2.0.5",
-    "@types/lodash": "^4.14.116",
-    "@types/through2": "^2.0.33",
-    "lodash": "^4.17.10",
-    "smartevent": "^1.0.1",
-    "smartstream": "^1.0.10",
-    "through2": "^2.0.3"
+    "@pushrocks/smartstream": "^1.0.14",
+    "@types/through2": "^2.0.34",
+    "through2": "^3.0.0"
   }
 }
